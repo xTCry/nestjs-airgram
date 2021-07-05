@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-airgram",
-  "version": "0.3.0",
+  "name": "@xtcry/nestjs-airgram",
+  "version": "1.0.0",
   "description": "Airgram module for NestJS",
   "keywords": [
     "nest",
@@ -14,13 +14,13 @@
     "telegram-api",
     "telegram-client"
   ],
-  "homepage": "https://github.com/Morb0/nestjs-airgram#readme",
+  "homepage": "https://github.com/xTCry/nestjs-airgram#readme",
   "bugs": {
-    "url": "https://github.com/Morb0/nestjs-airgram/issues"
+    "url": "https://github.com/xTCry/nestjs-airgram/issues"
   },
   "author": "Morbo",
   "license": "MIT",
-  "repository": "https://github.com/Morb0/nestjs-airgram.git",
+  "repository": "https://github.com/xTCry/nestjs-airgram.git",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

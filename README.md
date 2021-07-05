@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+    <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="160" alt="Nest Logo" /></a>
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/v/nestjs-airgram.svg" alt="NPM Version" /></a>
-    <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/l/nestjs-airgram.svg" alt="Package License" /></a>
-    <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/dm/nestjs-airgram.svg" alt="NPM Downloads" /></a>
+    <a href="https://www.npmjs.com/package/@xtcry/nestjs-airgram"><img src="https://img.shields.io/npm/v/@xtcry/nestjs-airgram.svg" alt="NPM Version" /></a>
+    <img src="https://img.shields.io/npm/l/@xtcry/nestjs-airgram.svg" alt="Package License" />
+    <img src="https://img.shields.io/npm/dm/@xtcry/nestjs-airgram.svg" alt="NPM Downloads" />
 </p>
 
 ## Description
@@ -16,12 +16,12 @@
 
 **NPM**
 ```bash
-$ npm i -s nestjs-airgram
+$ npm i -s @xtcry/nestjs-airgram
 ```
 
 **Yarn**
 ```bash
-$ yarn add nestjs-airgram
+$ yarn add @xtcry/nestjs-airgram
 ```
 
 ## Quick Start
@@ -36,7 +36,7 @@ It is directly passed to dlopen / LoadLibrary. Check your OS documentation to se
 ### Synchronous configuration
 ```typescript
 import { Module } from '@nestjs/common';
-import { AirgramModule } from 'nestjs-airgram';
+import { AirgramModule } from '@xtcry/nestjs-airgram';
 
 @Module({
   imports: [
@@ -69,7 +69,7 @@ import {
   OnEvent,
   OnRequest,
   OnUpdate,
-} from 'nestjs-airgram';
+} from '@xtcry/nestjs-airgram';
 
 @Injectable()
 export class AppService implements OnModuleInit {
@@ -111,5 +111,4 @@ export class AppService implements OnModuleInit {
     // This code will be invoked after "New message" update.
   }
 }
-
 ```
