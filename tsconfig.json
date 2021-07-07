@@ -14,6 +14,6 @@
     "outDir": "./dist",
     "skipLibCheck": true
   },
-  "include": ["lib/**/*", "sample/**/*"],
+  "include": ["lib/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "tests"]
 }

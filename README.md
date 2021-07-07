@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/@xtcry/nestjs-airgram"><img src="https://img.shields.io/npm/v/@xtcry/nestjs-airgram.svg" alt="NPM Version" /></a>
-    <img src="https://img.shields.io/npm/l/@xtcry/nestjs-airgram.svg" alt="Package License" />
-    <img src="https://img.shields.io/npm/dm/@xtcry/nestjs-airgram.svg" alt="NPM Downloads" />
+    <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/v/nestjs-airgram.svg" alt="NPM Version" /></a>
+    <img src="https://img.shields.io/npm/l/nestjs-airgram.svg" alt="Package License" />
+    <img src="https://img.shields.io/npm/dm/nestjs-airgram.svg" alt="NPM Downloads" />
 </p>
 
 ## Description
@@ -16,12 +16,12 @@
 
 **NPM**
 ```bash
-$ npm i -s @xtcry/nestjs-airgram
+$ npm i -s nestjs-airgram
 ```
 
 **Yarn**
 ```bash
-$ yarn add @xtcry/nestjs-airgram
+$ yarn add nestjs-airgram
 ```
 
 ## Quick Start
@@ -36,7 +36,7 @@ It is directly passed to dlopen / LoadLibrary. Check your OS documentation to se
 ### Synchronous configuration
 ```typescript
 import { Module } from '@nestjs/common';
-import { AirgramModule } from '@xtcry/nestjs-airgram';
+import { AirgramModule } from 'nestjs-airgram';
 
 @Module({
   imports: [
@@ -69,7 +69,7 @@ import {
   OnEvent,
   OnRequest,
   OnUpdate,
-} from '@xtcry/nestjs-airgram';
+} from 'nestjs-airgram';
 
 @Injectable()
 export class AppService implements OnModuleInit {
