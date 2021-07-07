@@ -4,8 +4,8 @@
 
 <p align="center">
     <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/v/nestjs-airgram.svg" alt="NPM Version" /></a>
-    <img src="https://img.shields.io/npm/l/nestjs-airgram.svg" alt="Package License" />
-    <img src="https://img.shields.io/npm/dm/nestjs-airgram.svg" alt="NPM Downloads" />
+    <a href="./LICENSE"><img src="https://img.shields.io/npm/l/nestjs-airgram.svg" alt="Package License" /></a>
+    <a href="https://www.npmjs.com/package/nestjs-airgram"><img src="https://img.shields.io/npm/dm/nestjs-airgram.svg" alt="NPM Downloads" /></a>
 </p>
 
 ## Description
